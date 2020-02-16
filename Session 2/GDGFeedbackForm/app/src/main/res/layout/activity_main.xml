@@ -11,6 +11,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -67,7 +69,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Professional"
-                            android:id="@+id/Professional"
+                            android:id="@+id/professional"
                             android:textSize="20sp"/>
 
                     </RadioGroup>
@@ -93,7 +95,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:backgroundTint="@color/colorAccent"
-                        android:max="5" />
+                        android:max="5"
+                        android:id="@+id/ratingBar"
+                        />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -107,7 +111,8 @@
                             android:layout_height="wrap_content"
                             android:minLines="5"
                             android:maxLines="5"
-                            android:hint="Enter Suggestion"/>
+                            android:hint="Enter Suggestion"
+                            android:id="@+id/suggest"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -121,6 +126,7 @@
                             android:layout_height="wrap_content"
                             android:min="18"
                             android:layout_marginBottom="10sp"
+                            android:id="@+id/age"
                             />
 
                     <CheckBox

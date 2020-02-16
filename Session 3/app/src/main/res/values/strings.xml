@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DigitalMag</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Inshorts</string>
+    <string name="title_notifications">More</string>
+    <string name="title_activity_front_loader">FrontLoader</string>
+    <string name="title_activity_front_loader_tab">FrontLoaderTab</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
