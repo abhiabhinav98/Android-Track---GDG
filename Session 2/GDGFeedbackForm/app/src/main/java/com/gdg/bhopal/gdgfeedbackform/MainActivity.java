@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent i = new Intent(MainActivity.this, ThankyouActivity.class);
                 i.putExtra("name", edt.getText().toString());
+                i.putExtra("feedback", gdg);
                 startActivity(i);
 
             }

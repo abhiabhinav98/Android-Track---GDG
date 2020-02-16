@@ -1,6 +1,8 @@
 package com.gdg.bhopal.gdgfeedbackform;
 
-public class GDGFeedback {
+import java.io.Serializable;
+
+public class GDGFeedback implements Serializable {
 
 
 
